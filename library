@@ -1,0 +1,21 @@
+public class Arek {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		final String appname = "bibliotek v.01";
+		
+		String title = "W pustyni i w puszczy";
+        String author = "Henryk Sienkiewicz";
+        int releaseDate = 2010;
+        int pages = 296;
+        String publisher = "Greg";
+        final String isbn = "9788373271890";
+  
+        System.out.println(appname);
+        System.out.println("Książki dostępne w bibliotece:");
+        System.out.println("title:"+ " " + title);
+        System.out.println("author:"+ " " + author);
+        System.out.println("relaseDate:"+ " " +releaseDate);
+        System.out.println("pages:"+  " " +pages);
+        System.out.println("publisher:"+ " " + publisher);
+        System.out.println("isbn:"+ " " + isbn);
