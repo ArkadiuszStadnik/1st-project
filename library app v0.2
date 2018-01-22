@@ -1,0 +1,39 @@
+public class Library {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		final String appName = "Bibliotek v.02";
+		
+		Book specimen1 = new Book();
+		specimen1.title = "W pustyni i w puszczy";
+		specimen1.author = "Henryk Sienkiewicz";
+		specimen1.releaseDate = 2010;
+		specimen1.pages = 296;
+		specimen1.publisher = "Greg";
+		specimen1.isbn = "9788373271890";
+        
+        System.out.print(appName);
+        System.out.println("Książki dostępne w bibliotece:");
+        System.out.println(specimen1.title);
+        System.out.println(specimen1.author);
+        System.out.println(specimen1.releaseDate);
+        System.out.println(specimen1.pages);
+        System.out.println(specimen1.publisher);
+        System.out.println(specimen1.isbn);
+	
+
+	}
+
+}
+
+class Book
+{
+	
+	String title;
+	String author;
+	int releaseDate;
+	int pages;
+	String publisher;
+	String isbn;
+}
